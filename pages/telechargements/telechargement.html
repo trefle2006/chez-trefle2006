@@ -8,16 +8,16 @@
         <!--Header-->
         <div>
             <div>
-                <img src="../images/logo.jpg" alt="logo de la chaine youtube de trefle2006" />
+                <img src="../../images/logo.jpg" alt="logo de la chaine youtube de trefle2006" />
                 <span>Chez Trefle2006</span>              
             </div>
             <!--Navigation-->
             <div>  
                 <ul>
-                    <li><a href="../index.html">Accueil</a></li>
-                    <li><a href="../pages/aProposDeMoi/aProposDeMoi.html">A propos de moi</a></li>
-                    <li><a href="../pages/recupEtBidouilles/homeRecupEtBidouilles.html">Récup' & Bidouilles</a></li>
-                    <li><a href="../pages/telechargements/telechargement.html">Mes téléchargements</a></li> 
+                    <li><a href="../../index.html">Accueil</a></li>
+                    <li><a href="../aProposDeMoi/aProposDeMoi.html">A propos de moi</a></li>
+                    <li><a href="../recupEtBidouilles/homeRecupEtBidouilles.html">Récup' & Bidouilles</a></li>
+                    <li><a href="../telechargements/telechargement.html">Mes téléchargements</a></li> 
                 </ul>
             </div>
         </div>
@@ -26,23 +26,40 @@
             <h1>
                 <u>Page des téléchargements</u>
             </h1>
-            <!-- <TABLE BORDER=3 CELLSPACING=2 CELLPADDING=2 WIDTH="80%">
-                <CAPTION> ... table caption ... </CAPTION>
-                <TR><TD> first cell <TD> second cell
-                <TR> ...
-                ...
-                </TABLE> -->
+            <!-- table balise pour paramétrer un tableau 
+                border définit la grosseur de tes lignes
+                cellspacing définit l'espace entre les cellules
+                cellpadding définit l'espace entre le contenu et la cellule
+                caption titre tableau
+            -->
+            <table border="1" cellspacing="5" cellpadding="5">
+                <caption>Titre du tableau</caption>
+                <!-- TR  permet de créer une ligne de tableau et TD une cellule -->
+                <th></th>
+                <th>Nom du fichier avec l'ext</th>
+                <th>Type Licence avec le lien</th>
+                <th>Icon d'upload</th>
+                <tr> 
+                    <td><img src="../../images/icones/icon-firefox.png" alt="Icone Firefox" /></td>
+                    <td>Firefox52.2.exe</td>
+                    <td>
+                        <a href="https://www.mozilla.org/en-US/MPL/" target="_blank" title="Licence Officielle Mozilla Firefox">Mozilla Public License</a>
+                    </td>
+                    <td><a href="../../asset/Firefox52.2.exe" title="Lien de téléchargement de Firefox52" target="_blank"><img src="../../images/icones/icon-download.png" alt="Icone de téléchargement" /></a></td>
+                </tr>
+                <tr>
+                    <td>Celulle B1</td>
+                </tr>
+            </table>    
 
 
             <!-- tableau 4 colonnes et autant de ligne que tu as d'assets  -->
             <!-- 1. icone 2. Nom du fichier avec extension 4.Type de licence avec au clic le lien exacte qui redirige sur le site stipulant 4.icone de téléchargements  -->
         </div>     
         <!--Footer-->
-        <div><a href="./pages/mentionslegale.html" target="_blank" title="Page des mentions légales du site">Mentions légales</a></div>   
+        <div><a href="../mentionslegale.html" target="_blank" title="Page des mentions légales du site">Mentions légales</a></div>   
     </body>
 </html>
-<!-- Licence lien Firefox: https://www.mozilla.org/en-US/MPL/ 
-<a href="https://www.mozilla.org/en-US/MPL/" target="_blank" title="Licence Officielle Mozilla Firefox">Mozilla Public License</a>
--->
+
 <!-- 3DMark : https://benchmarks.ul.com/legacy-benchmarks?redirected=true# -->
 <!-- https://fr.wikipedia.org/wiki/Iomega -->
