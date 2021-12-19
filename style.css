@@ -1,0 +1,63 @@
+/* Général */
+html {
+    background-color: #000000;
+    color: #dbdbdb;
+}
+
+a {
+    color: rgb(6, 6, 238);
+}
+
+a:hover {
+    color: rgb(0, 174, 255);
+}
+
+/* Header */
+#header {
+    width: 100%;
+    border: 0px;
+    border-bottom: 3px;
+    border-style: solid;
+    border-color: red;
+}
+
+#header, #menu{
+    height: 180px;
+}
+
+#marque {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+#marque img {
+    width: 40%;
+}
+
+#marque span {
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#menu {
+    float: right;
+    width: 80%;
+}
+
+#menu ul {
+    margin-top: 10%;
+    list-style: none;
+}
+
+#menu li {
+    display: inline;
+    margin-right: 5%;
+}
+
+#menu ul li a {
+    text-decoration: none;
+}
+
+/* Footer */
