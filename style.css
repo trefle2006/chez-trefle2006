@@ -60,4 +60,23 @@ a:hover {
     text-decoration: none;
 }
 
+/* Main */
+#main {
+    margin-left: 4%;
+}
+
+.center {
+    width: 95%;
+    margin-left: 2.5%;
+}
+
 /* Footer */
+#footer {
+    width: 100%;
+    margin-top: 5%;
+    border: 0px;
+    border-top: 1px;
+    border-style: solid;
+    border-color: rgb(238, 189, 97);
+    text-align: center;
+}
