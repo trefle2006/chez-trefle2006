@@ -5,11 +5,11 @@ html {
 }
 
 a {
-    color: rgb(6, 6, 238);
+    color: #9999FF;
 }
 
 a:hover {
-    color: rgb(0, 174, 255);
+    color: #00A4EB;
 }
 
 /* Header */
@@ -60,6 +60,10 @@ a:hover {
     text-decoration: none;
 }
 
+#menu ul li a:hover {
+    text-decoration: underline overline;
+}
+
 /* Main */
 #main {
     margin-left: 4%;
@@ -68,6 +72,10 @@ a:hover {
 .center {
     width: 95%;
     margin-left: 2.5%;
+}
+
+.souligne {
+    text-decoration: underline;
 }
 
 /* Footer */
