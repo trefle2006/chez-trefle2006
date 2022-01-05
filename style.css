@@ -78,6 +78,10 @@ a:hover {
     text-decoration: underline;
 }
 
+#listeArticle li{
+    list-style-type: '>  ';
+}
+
 /* Footer */
 #footer {
     width: 100%;
