@@ -1,0 +1,25 @@
+/* Ré-initialisation de la page */
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* En-tête */
+header {
+    background-color: #d95420;
+    border: 1px solid #d34615;
+    color: white;
+    
+}
+
+header img {
+    border: 3px solid rgba(238, 238, 238, 0.678);
+    border-radius: 5%;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
